@@ -13,9 +13,9 @@
 <body>
     <div class="container">
         <header>
-            <form>
+            <form id="form">
                 <input type="color" name="color-option" id="color-option">
-                <select name="scheme-mode" id="sheme-mode">
+                <select name="scheme-mode" id="scheme-mode">
                     <option value="monochrome">Monochrome</option>
                     <option value="monochrome-dark">Monochrome-dark</option>
                     <option value="monochrome-light">Monochrome-light</option>
@@ -30,26 +30,30 @@
     </div>
 
     <div class="container">
-        <div class="color-palette">
+        <div class="color-palette" id="color-palette">
             <div>
-                <div style="background: red" class="col"></div>
-                <p>hex</p>
+                <div style="background: #000000" class="col"></div>
+                <p>#000000</p>
             </div>
+        
             <div>
-                <div style="background: blue" class="col"></div>
-                <p>hex</p>
+                <div style="background: #1A1919" class="col"></div>
+                <p>#1A1919</p>
             </div>
+        
             <div>
-                <div style="background: yellow" class="col"></div>
-                <p>hex</p>
+                <div style="background: #343232" class="col"></div>
+                <p>#343232</p>
             </div>
+        
             <div>
-                <div style="background: green" class="col"></div>
-                <p>hex</p>
+                <div style="background: #4F4A4A" class="col"></div>
+                <p>#4F4A4A</p>
             </div>
+        
             <div>
-                <div style="background: pink" class="col"></div>
-                <p>hex</p>
+                <div style="background: #6A6262" class="col"></div>
+                <p>#6A6262</p>
             </div>
         </div>
     </div>
